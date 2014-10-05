@@ -4,9 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Join Us!</title>
 </head>
-
 <body>
 <?php
+include("antiinject.php");
 // 定义变量并设置为空值
 $nameErr = $emailErr = $qqErr = $schoolErr = $majorErr = "";
 $err=0;
